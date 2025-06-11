@@ -1,1 +1,3 @@
 # OurSAL
+Code/Art 2024 Changemaker Challenge submission coded by Rhode Sanchez, Salma Petrov, and Leydi Borges. 
+Our goal is to educate Floridians on their unique environment, no matter the place: sea, air, or land! This website provides comprehensive information on each aspect of the local Florida environment and how to protect it from modern-day problems such as climate change, air pollution, trash, and more.
