@@ -1,0 +1,86 @@
+/* navbar */
+.minilogo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+  }
+  .navbar-brand{
+    font-size:200% !important;
+    font-weight: bold;
+  }
+  
+  .navbar{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .navbar a:hover {
+    /* background: #DF826C; */
+    font-weight: bold!important;
+    color: #009dff;
+  
+  }
+  navbar a:active{
+      color: cadetblue;
+      background: rgba(0,0,0,0.1);
+  }
+  .navbar .dropdown-menu{
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+  .navbar .dropdown-item {
+    color: black !important;
+    /* text-shadow: 0 0 0px #3c5a80 !important; */
+  }
+  .navbar .dropdown-item:hover {
+    background-color: #D0F288;
+  }
+  
+  p,
+  a {
+    font-size: 1.15rem !important;
+  }
+  
+  /* game */
+  body {
+    padding:1em;
+    padding-top:100px;
+      font-family:'Josefin Sans', sans-serif;
+      text-align: center;
+    color:black;
+      background: #3e6f42;
+  }
+  
+  #board {
+      width: 540px;
+      height: 540px;
+      /* background-color: green; */
+  
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+  
+      background: url("Assets/soil.png");
+      background-size: cover;
+      border: 3px solid #D0F288;
+      border-radius: 25px;
+  }
+  
+  #board div {
+      /* board = 540 x 540, divide into 3x3 tiles --> 180 x 180 per div */
+      width: 170px; 
+      height: 170px;
+      background-image: url("img/grass.png");
+      background-size: cover;
+  }
+  
+  #board div img {
+      /* all img tags inside tiles */
+      width: 100px;
+      height: 100px;
+  
+      user-select: none;
+      -moz-user-select: none;
+      -webkit-user-drag: none;
+      -webkit-user-select: none;
+      -ms-user-select: none;
+  }
+  

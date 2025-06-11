@@ -1,0 +1,392 @@
+/* navbar */
+.minilogo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+  }
+  .navbar-brand{
+    font-size:200% !important;
+    font-weight: bold;
+  }
+  
+  .navbar{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .navbar a:hover {
+    /* background: #DF826C; */
+    font-weight: bold!important;
+    color: #009dff;
+    
+  }
+  navbar a:active{
+      color: cadetblue;
+      background: rgba(0,0,0,0.1);
+  }
+  .navbar .dropdown-menu{
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+  .navbar .dropdown-item {
+    color: black !important;
+    /* text-shadow: 0 0 0px #3c5a80 !important; */
+  }
+  .navbar .dropdown-item:hover {
+    background-color: #D0F288;
+  }
+  
+  /* home and body*/
+  h1{
+    font-size:3.5rem;
+    font-weight: bold;
+    padding:0.5em;
+  }
+  html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  .purpose{
+    background: #D0F288 !important;
+    background-size: cover;
+    max-width: 100%;
+    padding: 1em;
+    margin: 0 !important;
+  }
+  
+  body {
+    padding-top:70px;
+    font-family: 'Josefin Sans', sans-serif;
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    scroll-behavior: smooth;
+    /* background: linear-gradient(#F8FFD2, #D0F288) !important; 
+    background-repeat: no-repeat !important; */
+  }
+  .footer{
+    background-color: #DF826C !important;
+    padding:1em;
+  }
+  
+  .carousel-inner {
+    height: 700px;
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .carousel-item {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  h2 {
+    padding: 0.5em;
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  h3 {
+    padding-top: 0.5em;
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  
+  h4,
+  span {
+    font-size: 1.5rem;
+  }
+  
+  p,
+  a {
+    font-size: 1.15rem !important;
+  }
+  
+  .container{
+    padding: 1em;
+  }
+  
+  #my_btn {
+    display: none;
+    position: fixed;
+    bottom: 10px;
+    right: 20px;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: black;
+    cursor: pointer;
+    padding: 10px;
+    padding-top: 12.5px;
+    border-radius: 25px;
+  }
+  #my_btn:hover {
+    background-color: #97b1d8;
+  }
+  
+  /* buttons */
+  
+  .btn-primary {
+      color: black;
+      text-decoration: none;
+      font-size: 1.5em;
+      text-transform: uppercase;
+      font-family: 'Josefin Sans', sans-serif;
+      border-radius: 3px;
+      border: 2px solid #6c3333;
+      padding: 1rem 2rem;
+      box-shadow: .9px 1px 0 0 #6c3333, 1.5px 2px 0 0 #6c3333, 2.5px 3px 0 0 #6c3333, 3.5px 4px 0 0 #6c3333, 4.5px 5px 0 0 #6c3333, 5.5px 6px 0 0 #6c3333, 6.5px 7px 0 0 #6c3333, 7.5px 8px 0 0 #6c3333, 8.5px 9px 0 0 #6c3333, 9.5px 10px 0 0 #6c3333;
+      position: relative;
+      inset: 0;
+      cursor: pointer;
+      transform: rotateX(0), rotateY(0) rotateZ(0);
+      display: inline-block;
+      outline: 2px dashed transparent;
+      transition: all 600ms ease;
+    background: transparent;
+  }
+  
+  .btn-info {
+      color: black;
+      text-decoration: none;
+      font-size: 1.5em;
+      text-transform: uppercase;
+      font-family: 'Josefin Sans', sans-serif;
+      border-radius: 3px;
+      border: 2px solid #0ebac5;
+      padding: 1rem 2rem;
+      box-shadow: .9px 1px 0 0 #0ebac5, 1.5px 2px 0 0 #0ebac5, 2.5px 3px 0 0 #0ebac5, 3.5px 4px 0 0 #0ebac5, 4.5px 5px 0 0 #0ebac5, 5.5px 6px 0 0 #0ebac5, 6.5px 7px 0 0 #0ebac5, 7.5px 8px 0 0 #0ebac5, 8.5px 9px 0 0 #0ebac5, 9.5px 10px 0 0 #0ebac5;
+      position: relative;
+      inset: 0;
+      cursor: pointer;
+      transform: rotateX(0), rotateY(0) rotateZ(0);
+      display: inline-block;
+      outline: 2px dashed transparent;
+      transition: all 600ms ease;
+    background: transparent;
+  }
+  .btn-success {
+    color: black;
+    text-decoration: none;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-family: 'Josefin Sans', sans-serif;
+    border-radius: 3px;
+    border: 2px solid #8dc526;
+    padding: 1rem 2rem;
+    box-shadow: .9px 1px 0 0 #8dc526, 1.5px 2px 0 0 #8dc526, 2.5px 3px 0 0 #8dc526, 3.5px 4px 0 0 #8dc526, 4.5px 5px 0 0 #8dc526, 5.5px 6px 0 0 #8dc526, 6.5px 7px 0 0 #8dc526, 7.5px 8px 0 0 #8dc526, 8.5px 9px 0 0 #8dc526, 9.5px 10px 0 0 #8dc526;
+    position: relative;
+    inset: 0;
+    cursor: pointer;
+    transform: rotateX(0), rotateY(0) rotateZ(0);
+    display: inline-block;
+    outline: 2px dashed transparent;
+    transition: all 600ms ease;
+  background: transparent;
+  }
+  
+  .btn:hover {
+    color:white;
+      inset: 6px 0 5.5px 0;
+      transform: rotateX(5deg) rotateY(3deg) rotateZ(.25deg);
+      box-shadow: none;
+  }
+  
+  /*about us html*/
+  .aboutus{
+    background-color: #F8FFD2!important;
+  }
+  
+  .techtigers{
+    background-color:#DF826C;
+  }
+  
+  .intros{
+    background-color: #D0F288;
+  }
+  
+  .intros{
+    padding:1em;
+    /* justify-content: center;
+    align-items: center; */
+  }
+  .teampic{
+    width: 400px;
+    height: auto;
+    border-radius: 20%;
+    padding: 1em;
+  }
+  
+  i{
+    justify-content:center;
+    width: 20px;
+    height: 20px;
+  }
+  
+  
+  /* coral reel html */
+  .title{
+    background-color: #809df4;
+  }
+  
+  .intro{
+    background-color: #F8FFD2;
+  }
+  
+  .flintro{
+    background-color: #DF826C ;
+  }
+  
+  .howhelp{
+    background-color: #809df4;
+  }
+  
+  .organizations{
+    background-color: #DF826C ;
+  }
+  
+  .oppcreef{
+    background:#F8FFD2;
+  }
+  
+  .card{
+    background-color:transparent;
+    border: solid 1px #809df4;
+  }
+  
+  .list-group-item{
+    border: none;
+    background-color: transparent;
+  }
+  
+  
+  /*transportation*/
+  *, *::after, *::before {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+  }
+  
+  /*local beaches*/
+  .card-style {
+    background-color: #0ebac5;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 90%;
+    margin: 2% 0;
+    padding: 2%;
+  }
+  
+  /* invasive game */
+  /* .whacamole {
+      font-family: Arial, Helvetica, sans-serif;
+      text-align: center;
+      background: #D0F288;
+      background-size: cover;
+  } */
+  
+  /*rhode testing*/
+  
+  /*air pollution*/
+  
+  .airtitle{
+    padding-top:25px;
+    background-color: #A3BBAD;
+  }
+  .airintro{
+    background-color: #A3BBAD;
+  }
+  .aireffects{
+    background-color: #D0F288;
+  }
+  .airsolutions{
+    background-color: white;
+  }
+  
+  /* transportation */
+  .title1{
+    background-color: white;
+  }
+  
+  /* .transintro{
+    background-color: #3B7080;
+  } */
+  .trains{
+    background-color:#009dff;
+  }
+  .busses{
+    background-color: #D0F288;
+  }
+  
+  .cars{
+    background-color: #DF826C;
+  }
+  
+  .salts{
+    background-color: #809df4;
+  }
+  
+  /* airmap */
+  .amtitle{
+    background-color:#F8FFD2
+  }
+  
+  /* everglades */
+  .evertitle{
+    background-color: #3fab55;
+  }
+  .everintro{
+    background-color: #7bdb8e;
+  }
+  .ewildlife{
+    background-color: #d4ffd1;
+  }
+  .invaspe{
+    background-color: white;
+  }
+  .watersafe{
+    background-color: #F8FFD2;
+  }
+  .youhelpe{
+    background-color: #7bdb8e;
+  }
+  
+  /* footer */
+  .footer{
+    color:black;
+    font-weight:bolder;
+    font-style:italic;
+  }
+  
+  details {
+    background-color: transparent;
+    margin-bottom: 10px;
+  }
+  
+  details > summary {
+    color: black;
+    padding: 5px 10px;
+    font-size: 15px;
+    cursor: pointer;
+  }
+  details > p {
+    padding:0.2em;
+    color: #ddd!important;
+    font-size: 15px!important;
+  }
+  .fhead1{
+    color:black;
+    font-size:17px;
+    font-weight:bolder;
+    font-style:italic;
+  }
+  .fcontent{
+    text-decoration:none;
+    color:white;
+    font-size:15px!important;
+    padding-left:1em;
+  }

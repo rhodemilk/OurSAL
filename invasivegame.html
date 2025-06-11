@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whac a Mole</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;1,200&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="icon" href="Assets/logo.png">
+    <link rel="stylesheet" href="invasivegame.css">
+    <script src="invasivegame.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@tsparticles/confetti@3.0.3/tsparticles.confetti.bundle.min.js"></script>
+</head>
+  
+<body>
+  <nav class="navbar navbar-expand-md fixed-top" style="background-color:#8ADAB2;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"><img class="minilogo" src="Assets/logo.png">
+      </a>
+      <a class="navbar-brand" href="index.html">OurSAL</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <!-- <li class="nav-item"> -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Sea
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="coralreef.html"> Coral Reefs</a></li>
+                <li><a class="dropdown-item" href="protecting local beach.html"> Local Beaches</a></li>
+                <li><a class="dropdown-item" href="rhodepracticegame.html">Sea Animal Matching</a></li>
+              </ul>
+          </li>
+        </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Air
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="airpollution.html">Air Pollution</a></li>
+              <li><a class="dropdown-item" href="transportation.html">Transportation</a></li>
+              <li><a class="dropdown-item" href="airmap.html">Air Quality Index Map</a></li>
+            </ul>
+          </li>
+            <!-- <a class="nav-link active" aria-current="page" href="#">Home</a> -->
+          <!-- </li> -->
+          <!-- <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          <!-- </li> -->
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Land
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="everglades.html"> The Everglades</a></li>
+              <li><a class="dropdown-item" href="invasivegame.html">Invasive Species Hunting Game</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Get Involved
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="petitions.html">Petitions</a></li>
+              <li><a class="dropdown-item" href="advocate.html">Government Advocation</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="aboutus.html">About Us</a>
+          </li> 
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+    <h1>Whac a Snake</h1>
+    <h2>Click on the invasive burmese python to eliminate them from the habitat. You only have 15 seconds to get the best score. Be careful not to click on the native alligator!</h2>
+    <h2 id="score">0</h2>
+  <button class='btn btn-success' id="startButton" style="font-size:200%;">Start</button>
+  <br>
+  <br>
+
+    <!-- 3x3 -->
+    <div id="board">
+    </div>
+  </section>
+  
+</body>
+</html>
